@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neyen</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/star-icon.png">
+</head>
+<body>
+    <header>
+        <a href="../index.html">Home</a>
+        <a href="about.html">Sobre mi</a>
+        <a href="experience.html">Experiencia</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html">Contacto</a>
+    </header>
+    <main class="contact">
+
+    <div class="contact-title">/contacto <hr></div>
+
+    <div class="container-formulario">
+
+        <form id="contactForm">
+        <!-- Nombre -->
+            <label for="nombre" class="palabras-form">Nombre:</label>
+            <input class="formulario-espacios" type="text" id="nombre" name="nombre" required minlength="3" placeholder="      Tu nombre">
+
+        <!-- Email -->
+            <label for="email" class="palabras-form">Email:</label>
+            <input class="formulario-espacios" type="email" id="email" name="email" required placeholder="      Tu email">
+
+        <!-- Motivo de Contacto -->
+            <label for="motivo" class="palabras-form">Motivo de Contacto:</label>
+            <select id="motivo" name="motivo" required class="formulario-espacios">
+                <option value="">      Selecciona una opción</option>
+                <option value="consulta">Consulta</option>
+                <option value="propuesta">Propuesta de Proyecto</option>
+                <option value="presupuesto">Presupuesto</option>
+                <option value="otros">Otros</option>
+            </select>
+
+        <!-- Mensaje -->
+            <label for="mensaje" class="palabras-form">Mensaje:</label>
+            <textarea class="formulario-espacios-mensaje" id="mensaje" name="mensaje" required minlength="10" placeholder="  Escribe tu mensaje"></textarea>
+
+        <!-- Botón de Enviar -->
+            <button class="button-form" type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <p class="contact-description">
+        Estoy disponible para colaborar en proyectos interesantes y desafiantes. Si deseas ponerte en contacto conmigo para hablar sobre una posible colaboracion, un proyecto, o simplemente para saludar, puedes encontrarme en las plataformas a continuacion. ¡No dudes en enviarme un mensaje!
+    </p>
+
+    <div class="contenedor_imagen"> <a href="mailto:neyenergas@gmail.com.com" target="_blank"><img class="imagen_red" src="../img/mail.png" alt="mail"></a></div>
+    <div class="contenedor_imagen"> <a href="https://www.linkedin.com/in/neyen-dev/" target="_blank"><img class="imagen_red"src="../img/linkedin.png" alt="linkedin"></a></div>
+    <div class="contenedor_imagen"><a href="https://github.com/neyen-ergas" target="_blank"> <img class="imagen_red"src="../img/github.png" alt="github"></a></div>
+
+    </main>
+
+    <footer id="credit">
+        <div class="ending-credits">
+
+          <div>Construido por Neyen Ergas. </div>
+          <div>Todos los derechos reservados. ©</div>
+          
+        </div>
+</footer>
+</body>
+</html>

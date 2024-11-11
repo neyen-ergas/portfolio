@@ -1,0 +1,38 @@
+.home{
+    background-color: #5a4f8e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 100px;
+    min-height: 100vh;
+  }
+
+  .imagen_portada{
+    border-radius: 50%;
+    width: 30%;
+  }
+  
+  .nombre{
+      
+      font-family: "NTR", sans-serif;
+      font-style: normal;
+      color: #d2c3ff;
+      font-size: 60px;
+  }
+  
+  .intro{
+  
+    font-family: "NTR", sans-serif;
+    font-size: 22px;
+    max-width: 600px;
+    padding-bottom: 50px;
+    color: #a192d8;
+  }
+
+  .imagen_portada:hover {
+    transform: scale(1.02);
+    transition: ease-in 0.2s;
+}

@@ -1,0 +1,48 @@
+.about {
+    min-height: 50vh;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 100px;
+}
+  .about-image{
+    max-width: 300px;
+    flex-shrink: 0;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+    border: none;
+  }
+
+  .about_title{
+    font-family: "NTR", sans-serif;
+    font-style: normal;
+    color: #d2c3ff;
+    font-size: 80px;
+  }
+  
+  .about_description{
+    font-family: "NTR", sans-serif;
+    max-width: 600px;
+    font-size: 22px;
+    text-align: justify;
+    color: #a192d8;
+    margin: 0;
+    flex:1;
+    margin-right: 20px;
+  }
+  
+  .about_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-image img:hover {
+    transform: scale(1.02);
+    transition: ease-in 0.2s;
+}

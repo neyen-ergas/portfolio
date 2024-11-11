@@ -1,0 +1,35 @@
+.experience{
+    min-height: 50vh;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 100px;
+  }
+
+.experience-title{
+    font-family: "NTR", sans-serif;
+    font-style: normal;
+    color: #d2c3ff;
+    font-size: 80px;
+  }
+
+  .experience-subtitle{
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+    color:  #d2c3ff;
+    font-weight: bold;
+  }
+  
+  .experience-duration{
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    color: #dad1f7;
+  }
+
+  .experience-description{
+    padding-top: 24px;
+    max-width: 650px;
+    font-family: "NTR", sans-serif;
+    font-size: 20px;
+    color: #dcd6f1;
+  }
+  
